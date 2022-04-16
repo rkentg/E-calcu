@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCalculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+</head>
+<body>
+
+    <!-- nav bar section -->
+    <section>
+        <section class="container-fluid">
+            <nav class="top">                      
+                <div class="topnav"> 
+                    <h1 class="mainTitle">E - Calculator</h1>
+                </div>
+              </nav>
+    </section>
+
+    <!-- banner -->
+
+    
+        <section>
+            <nav class="navbar container-fluid">                      
+                <div class="navText">
+                    <ul class="navbar-nav d-inline">
+                        
+                      <li class="navButtons">
+                        <a class="nav-link" href="calcu.html">
+                          Home</a>
+                      </li>
+                      <li class="navButtons">
+                        <a class="nav-link" href="aboutUs.html">
+                           About Us</a>
+                      </li>
+                    
+                    </ul>
+                  
+                </div>
+              </nav>
+    </section>
+
+    <!-- calculator -->
+    <section>
+            <div class="calculator-grid">
+                <div class="output">
+                    <div data-previous-operand class="previous-operand"></div>
+                    <div data-current-operand class="current-operand"></div>
+                </div>
+                
+                <button data-all-clear class="span-two">AC</button>
+                <button data-delete class="button">DEL</button>
+                <button data-operation class="button">÷</button>
+                <button data-number class="button">1</button>
+                <button data-number class="button">2</button>
+                <button data-number class="button">3</button>
+                <button data-operation class="button">*</button>
+                <button data-number class="button">4</button>
+                <button data-number class="button">5</button>
+                <button data-number class="button">6</button>
+                <button data-operation class="button">+</button>
+                <button data-number class="button">7</button>
+                <button data-number class="button">8</button>
+                <button data-number class="button">9</button>
+                <button data-operation class="button">-</button>
+                <button data-number class="button">.</button>
+                <button data-number class="button">0</button>
+                <button data-equals class="span-two">=</button>
+            </div>
+    </section>  
+    
+    <script src="JS/calcu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

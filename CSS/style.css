@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00e1ff;
+}
+
+
+/* topNav */
+
+.mainTitle{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    
+}
+
+.top
+{
+    background-color: #00e1ff;
+}
+
+/* navbar */
+
+.navbar
+{
+    background-color: #383737; 
+    font-family: monospace;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.navbar-nav li{
+    padding: 22px 30px;
+    text-align: center;
+    display: inline;
+   
+}
+
+.navbar-nav li a{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    font-size: 20px;
+  
+}
+
+
+
+.navText li a{
+    display: inline;
+}
+
+.navButtons :hover {
+    background-color: #00e1ff;
+}
+
+
+
+
+
+/* calcu */
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 80vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px, solid #FFFFFF;
+    outline: none;
+    box-shadow: inset 0px 0px 10px #06eff7, inset 0px -5px 1px 
+}
+
+.calculator-grid > button:hover {
+    background-color: #a9a9a9;
+}
+
+.span-two {
+    grid-column: span 2;
+    color: #9fedd7;
+    background-color: #026670;
+}
+
+.output{
+    grid-column: 1 / -1;
+    background-color: rgba(36, 34, 34, 0.75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px 
+}
+
+.output .previous-operand{
+    color: rgba(255,255, 255, 0.75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand{
+    color: #edeae5;
+    font-size: 2.5rem;
+}
+
+.button{
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+}
